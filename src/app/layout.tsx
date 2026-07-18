@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en-US" suppressHydrationWarning>
-            <body>
+            <body suppressHydrationWarning>
                 <BootstrapClient />
                 <SmoothScroll>
                     <ThemeProvider>{children}</ThemeProvider>
